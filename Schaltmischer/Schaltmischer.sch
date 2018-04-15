@@ -35,8 +35,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Schaltmischer"
-Date "2018-04-14"
-Rev "C"
+Date "2018-04-15"
+Rev "D"
 Comp "Jonas Gappert"
 Comment1 ""
 Comment2 ""
@@ -45,46 +45,35 @@ Comment4 ""
 $EndDescr
 $Comp
 L FST3125 U1
-U 1 1 5AD24E27
+U 2 1 5AD24E27
 P 5500 2400
 F 0 "U1" H 5500 2650 60  0000 C CNN
 F 1 "FST3125" H 5600 1950 60  0000 C CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 5500 2400 60  0001 C CNN
 F 3 "" H 5500 2400 60  0001 C CNN
-	1    5500 2400
+	2    5500 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L FST3125 U1
-U 2 1 5AD24EC6
+U 3 1 5AD24EC6
 P 5500 3400
 F 0 "U1" H 5500 3650 60  0000 C CNN
 F 1 "FST3125" H 5600 2950 60  0000 C CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 5500 3400 60  0001 C CNN
 F 3 "" H 5500 3400 60  0001 C CNN
-	2    5500 3400
+	3    5500 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L FST3125 U1
-U 3 1 5AD24F31
+U 1 1 5AD24F31
 P 5500 4600
 F 0 "U1" H 5500 4850 60  0000 C CNN
 F 1 "FST3125" H 5600 4150 60  0000 C CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 5500 4600 60  0001 C CNN
 F 3 "" H 5500 4600 60  0001 C CNN
-	3    5500 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L FST3125 U1
-U 4 1 5AD24F98
-P 5500 5600
-F 0 "U1" H 5500 5850 60  0000 C CNN
-F 1 "FST3125" H 5600 5150 60  0000 C CNN
-F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 5500 5600 60  0001 C CNN
-F 3 "" H 5500 5600 60  0001 C CNN
-	4    5500 5600
+	1    5500 4600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -105,7 +94,7 @@ SW2
 Text GLabel 5000 2400 0    60   Input ~ 0
 SW1
 Text GLabel 5000 5600 0    60   Input ~ 0
-IN1
+SW1
 Wire Wire Line
 	5200 2700 4700 2700
 Wire Wire Line
@@ -127,7 +116,7 @@ F 1 "Übertrager" H 8700 3800 50  0000 C CNN
 F 2 "HF_Transformers:T-622" H 8700 4300 50  0001 C CNN
 F 3 "" H 8700 4300 50  0000 C CNN
 	1    8700 4300
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	3500 4200 3600 4200
@@ -269,7 +258,7 @@ U 1 1 5AD29854
 P 3200 2250
 F 0 "C1" H 3225 2350 50  0000 L CNN
 F 1 "10µ" H 3225 2150 50  0000 L CNN
-F 2 "Capacitors_THT:C_Radial_D6.3_L11.2_P2.5" H 3238 2100 50  0001 C CNN
+F 2 "Discret:C1V7H_2" H 3238 2100 50  0001 C CNN
 F 3 "" H 3200 2250 50  0000 C CNN
 	1    3200 2250
 	1    0    0    -1  
@@ -562,6 +551,17 @@ F 1 "Übertrager" H 3100 3800 50  0000 C CNN
 F 2 "HF_Transformers:T-622" H 3100 4300 50  0001 C CNN
 F 3 "" H 3100 4300 50  0000 C CNN
 	1    3100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L FST3125 U1
+U 4 1 5AD24F98
+P 5500 5600
+F 0 "U1" H 5500 5850 60  0000 C CNN
+F 1 "FST3125" H 5600 5150 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 5500 5600 60  0001 C CNN
+F 3 "" H 5500 5600 60  0001 C CNN
+	4    5500 5600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
