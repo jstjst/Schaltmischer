@@ -116,7 +116,7 @@ F 1 "Übertrager" H 8700 3800 50  0000 C CNN
 F 2 "HF_Transformers:T-622" H 8700 4300 50  0001 C CNN
 F 3 "" H 8700 4300 50  0000 C CNN
 	1    8700 4300
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3500 4200 3600 4200
