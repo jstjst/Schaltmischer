@@ -35,8 +35,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Schaltmischer"
-Date "2018-04-15"
-Rev "D"
+Date "2018-04-16"
+Rev "E"
 Comp "Jonas Gappert"
 Comment1 ""
 Comment2 ""
@@ -111,8 +111,8 @@ $Comp
 L TRANSFORMER_SP_1S_2 T2
 U 1 1 5AD25A86
 P 8900 4300
-F 0 "T2" H 8900 4800 50  0000 C CNN
-F 1 "Übertrager" H 8900 3800 50  0000 C CNN
+F 0 "T2" H 8900 4000 50  0000 C CNN
+F 1 "T4-6T" H 8900 4600 50  0000 C CNN
 F 2 "HF_Transformers:T-622" H 8900 4300 50  0001 C CNN
 F 3 "" H 8900 4300 50  0000 C CNN
 	1    8900 4300
@@ -416,7 +416,7 @@ L CONN_01X03 P3
 U 1 1 5AD310CD
 P 1200 5800
 F 0 "P3" H 1200 6000 50  0000 C CNN
-F 1 "Takt" V 1300 5800 50  0000 C CNN
+F 1 "Takteing." V 1300 5800 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 1200 5800 50  0001 C CNN
 F 3 "" H 1200 5800 50  0000 C CNN
 	1    1200 5800
@@ -490,12 +490,12 @@ $Comp
 L TRANSFORMER_SP_1S_2 T1
 U 1 1 5AD259DF
 P 2800 4300
-F 0 "T1" H 2800 4800 50  0000 C CNN
-F 1 "Übertrager" H 2800 3800 50  0000 C CNN
+F 0 "T1" H 2800 4600 50  0000 C CNN
+F 1 "T4-6T" H 2800 4000 50  0000 C CNN
 F 2 "HF_Transformers:T-622" H 2800 4300 50  0001 C CNN
 F 3 "" H 2800 4300 50  0000 C CNN
 	1    2800 4300
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L FST3125 U1
